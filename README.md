@@ -1,5 +1,6 @@
 # uglyfetch
 Fetcher for Linux. Made in like 30 minutes and ugly AF.
+
 ![](demos/uglyfetch_demo.jpg)
 # Requirements
 - Figlet
