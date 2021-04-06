@@ -3,6 +3,7 @@ Fetcher for Linux. Made in like 30 minutes and ugly AF.
 ![](demos/uglyfetch_demo.jpg)
 # Requirements
 - Figlet
+- Lolcat
 - Git
 # Installation
 Clone the repository and run the script. To do this run:
