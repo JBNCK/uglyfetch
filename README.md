@@ -11,6 +11,10 @@ Clone the repository and run the script. To do this run:
 ```
 git clone https://github.com/JBGMR/uglyfetch.git && cd uglyfetch && sh install.sh
 ```
+If you are on Arch run:
+```
+git clone https://github.com/JBGMR/uglyfetch.git && cd uglyfetch && makepkg -si
+```
 # Removing
 Execute the following:
 ```
