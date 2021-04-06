@@ -1,0 +1,11 @@
+#!/bin/sh
+hostname -s | figlet | lolcat
+echo
+echo -n "OS        : " ; cat /etc/os-release | grep "^PRETTY_NAME" |tail -c +13
+echo -n "KERNEL    : " ; uname -r
+echo -n "HOST      : " ; echo -n "$USER" ; echo -n "@" ; hostname -s
+echo -n "CPU       : " ; cat /proc/cpuinfo | grep '^model name' | awk 'NR == 1' |tail -c +14
+echo -n "GPU       : " ; lspci |grep "VGA compatible controller" |cut -d":" -f3 |tail -c +2
+echo -n "UP        : " ; uptime -p |tail -c +4
+(echo -n "MEM       : "; cat /proc/meminfo |grep 'MemTotal' |tail -c +13 | awk '{ print "TOTAL (KB): " $1 }') |tr '\n' '\t'
+echo
