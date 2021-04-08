@@ -15,7 +15,7 @@ git clone https://github.com/JBGMR/uglyfetch.git && cd uglyfetch && sh install.s
 ```
 If you are on Arch run the following line to install all the requirements and the progran itself:
 ```
-git clone https://github.com/JBGMR/uglyfetch.git && cd uglyfetch && makepkg -si
+sudo pacman -S git figlet lolcat inetutils pciutils && git clone https://github.com/JBGMR/uglyfetch.git && cd uglyfetch && makepkg -si
 ```
 To run the program type ``uglyfetch``
 # Removing
