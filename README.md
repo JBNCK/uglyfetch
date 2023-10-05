@@ -1,5 +1,5 @@
 # uglyfetch
-Fetcher for Linux. Made in like 30 minutes and ugly AF.
+Fetcher for Linux. I made it in line 30 minutes so don't expect anything.
 
 ![](demos/uglyfetch_demo.jpg)
 # Requirements
