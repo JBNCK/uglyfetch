@@ -1,5 +1,7 @@
+## Notice: As of August 2024 this Project is no longer under active development. More information can be found [here (german)](https://de.biernacik.org/meldungen/einstellung-projekte/).
+
 # uglyfetch
-Fetcher for Linux. I made it in line 30 minutes so don't expect anything.
+I made this in line 30 minutes so don't expect anything good.
 
 ![](demos/uglyfetch_demo.jpg)
 # Requirements
